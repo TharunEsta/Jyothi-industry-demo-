@@ -7,94 +7,111 @@ export const quickLinks = [
 ];
 
 export const trustMarkers = [
-  "Quality Focused",
-  "Reliable Delivery",
-  "Industrial Expertise",
+  "Precision-Driven Production",
+  "Reliable Bulk Supply",
+  "Trusted B2B Support",
 ];
 
 export const stats = [
-  { label: "Business-ready response", value: "24h" },
-  { label: "Focused on repeat orders", value: "B2B" },
-  { label: "Built for trust", value: "100%" },
+  { label: "Response window", value: "24h" },
+  { label: "Supply focus", value: "Bulk B2B" },
+  { label: "Business sectors", value: "Multiple" },
 ];
 
 export const overviewCards = [
   {
     title: "Quality Manufacturing",
-    text: "Process-driven output with consistent attention to materials, finish, and repeatable standards.",
+    text: "We maintain industrial-grade materials, controlled processes, and repeatable checks so every order is delivered with the same professional standard.",
   },
   {
     title: "Industry Experience",
-    text: "Built around the expectations of industrial buyers who value clarity, consistency, and accountability.",
+    text: "Our team understands what industrial buyers expect: clear communication, practical lead times, and dependable execution on every enquiry.",
   },
   {
     title: "Trusted Business Relationships",
-    text: "A partner approach designed to support distributors, procurement teams, and long-term supply needs.",
+    text: "We work toward long-term business partnerships that support repeat supply, procurement planning, and reliable vendor confidence.",
   },
 ];
 
 export const capabilities = [
   {
-    title: "Industrial Components",
-    text: "Reliable production support for core industrial component requirements.",
+    title: "Precision Industrial Components Manufacturing",
+    text: "Production support for parts and assemblies where fit, finish, and consistency matter to downstream operations.",
     icon: "factory",
   },
   {
-    title: "Manufacturing Solutions",
-    text: "Structured manufacturing support aligned to operational and commercial goals.",
+    title: "Custom Manufacturing Solutions",
+    text: "Flexible batch and custom production for requirement-specific industrial and commercial orders.",
     icon: "cog",
   },
   {
-    title: "Custom Production",
-    text: "Flexible production capabilities for requirement-specific business orders.",
+    title: "Engineering-Led Production Planning",
+    text: "Practical planning support that helps align designs, quantities, and timelines before production starts.",
     icon: "blueprint",
   },
   {
-    title: "Bulk Supply",
-    text: "Efficient order handling for recurring and high-volume supply needs.",
+    title: "Bulk Supply Capability",
+    text: "Prepared for recurring purchase cycles, larger order volumes, and supplier relationships that require consistency.",
     icon: "boxes",
   },
   {
-    title: "Quality Assurance",
-    text: "Quality checks that reinforce trust, consistency, and buyer confidence.",
+    title: "Quality Assurance & Inspection",
+    text: "Internal checks help maintain quality standards, reduce variation, and protect buyer confidence.",
     icon: "shield",
   },
   {
     title: "Business Supply Support",
-    text: "Responsive support for enquiries, quotations, and ongoing supply coordination.",
+    text: "A responsive point of contact for quotations, order coordination, and ongoing supplier communication.",
     icon: "handshake",
   },
 ];
 
 export const reasons = [
   {
-    title: "Professional Quality Standards",
-    text: "Premium manufacturing presentation backed by disciplined expectations and process clarity.",
+    title: "Strict Quality Control",
+    text: "From material checks to final inspection, we follow a disciplined process that supports consistent output and fewer surprises.",
     icon: "badge",
   },
   {
-    title: "Consistent Delivery",
-    text: "Dependable execution designed to support planning, procurement, and business continuity.",
+    title: "On-Time Delivery Commitment",
+    text: "We understand the importance of delivery timelines in procurement, production planning, and customer commitments.",
     icon: "truck",
   },
   {
-    title: "Reliable Service",
-    text: "A responsive approach that keeps communication clear and the buying process straightforward.",
+    title: "Experienced Industrial Team",
+    text: "Our team brings practical manufacturing experience, helping clients move from inquiry to supply with confidence.",
     icon: "support",
   },
   {
-    title: "Business-Focused Support",
-    text: "Built to help industrial buyers move from enquiry to supply with less friction.",
+    title: "Reliable Business Support",
+    text: "We stay responsive through quotation, order coordination, and repeat supply requirements so business relationships remain smooth.",
     icon: "briefcase",
   },
 ];
 
 export const industries = [
-  "Industrial Supply",
-  "Manufacturing",
-  "Construction",
-  "Infrastructure",
-  "Commercial Operations",
-  "B2B Procurement",
+  {
+    title: "Industrial Supply",
+    text: "Bulk orders and consistent fulfillment for supplier networks.",
+  },
+  {
+    title: "Manufacturing",
+    text: "Support for plant operations, component needs, and production flows.",
+  },
+  {
+    title: "Construction",
+    text: "Reliable supply for project-based material and equipment requirements.",
+  },
+  {
+    title: "Infrastructure",
+    text: "Practical manufacturing support for public and private infrastructure work.",
+  },
+  {
+    title: "Commercial Operations",
+    text: "Business-ready support for operational and facility requirements.",
+  },
+  {
+    title: "B2B Procurement",
+    text: "Built for procurement teams that need clarity, consistency, and responsiveness.",
+  },
 ];
-

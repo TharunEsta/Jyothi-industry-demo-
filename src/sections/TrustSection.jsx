@@ -22,8 +22,14 @@ export function TrustSection() {
         <SectionHeader
           eyebrow="Trust & Value"
           title="Why Businesses Choose JYOTHI INDUSTRIES"
-          description="A premium trust-focused presentation that speaks directly to procurement teams, distributors, and industrial buyers."
+          description="A trust-heavy presentation built for procurement teams, distributors, and industrial buyers who care about quality control, delivery discipline, and reliable support."
         />
+
+        <div className="mb-8 grid gap-3 rounded-[1.5rem] border border-slate-200 bg-stone-50 p-5 text-sm text-slate-600 sm:grid-cols-3">
+          <div>Strict process control across production and inspection</div>
+          <div>Timely delivery planning for business continuity</div>
+          <div>Clear communication for repeat supply relationships</div>
+        </div>
 
         <div className="grid gap-5 lg:grid-cols-2">
           {reasons.map((item) => {
@@ -31,7 +37,7 @@ export function TrustSection() {
             return (
               <div
                 key={item.title}
-                className="subtle-border rounded-[1.75rem] bg-gradient-to-br from-white to-stone-50 p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-premium"
+                className="subtle-border rounded-[1.75rem] bg-gradient-to-br from-white to-stone-50 p-7 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-premium"
               >
                 <div className="flex gap-5">
                   <div className="grid h-14 w-14 shrink-0 place-items-center rounded-2xl bg-slate-900 text-white">

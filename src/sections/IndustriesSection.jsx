@@ -9,19 +9,24 @@ export function IndustriesSection() {
         <SectionHeader
           eyebrow="Industries"
           title="Industries We Serve"
-          description="Built for sectors that need dependable supply, professional handling, and business-grade presentation."
+          description="Our manufacturing and supply support is positioned for sectors that need dependable bulk supply, consistent quality standards, and straightforward business communication."
         />
 
         <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {industries.map((industry) => (
             <div
-              key={industry}
-              className="flex items-center justify-between rounded-[1.5rem] border border-slate-200 bg-white px-6 py-5 shadow-sm transition hover:-translate-y-1 hover:shadow-premium"
+              key={industry.title}
+              className="rounded-[1.5rem] border border-slate-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-premium"
             >
-              <span className="text-base font-semibold text-slate-900">{industry}</span>
-              <span className="text-slate-400">
-                <ArrowIcon />
-              </span>
+              <div className="flex items-start justify-between gap-4">
+                <div>
+                  <span className="text-base font-semibold text-slate-900">{industry.title}</span>
+                  <p className="mt-2 text-sm leading-6 text-slate-600">{industry.text}</p>
+                </div>
+                <span className="text-slate-400">
+                  <ArrowIcon />
+                </span>
+              </div>
             </div>
           ))}
         </div>

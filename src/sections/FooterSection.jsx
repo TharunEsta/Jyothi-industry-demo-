@@ -9,15 +9,15 @@ export function FooterSection() {
       <section id="contact" className="border-t border-slate-200 bg-stone-50 py-20">
         <div className="section-shell">
           <div className="mb-10">
-            <div className="text-sm font-semibold uppercase tracking-[0.38em] text-amber-700">
+            <div className="text-sm font-semibold uppercase tracking-[0.38em] brand-accent-text">
               Contact
             </div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
               Get in Touch
             </h2>
             <p className="mt-4 text-lg leading-8 text-slate-600">
-              Simple, direct business contact information presented with the kind of clarity
-              industrial clients expect.
+              Direct contact details presented with the kind of clarity industrial buyers,
+              suppliers, and procurement teams expect from a serious business.
             </p>
           </div>
 
@@ -36,20 +36,21 @@ export function FooterSection() {
             </div>
 
             <div className="rounded-[2rem] bg-slate-900 p-8 text-white shadow-premium">
-              <div className="text-sm uppercase tracking-[0.35em] text-slate-400">
+              <div className="text-sm uppercase tracking-[0.35em] brand-accent-text">
                 Direct support
               </div>
               <h3 className="mt-4 text-3xl font-semibold">
                 Need quick answers for a procurement or supply enquiry?
               </h3>
               <p className="mt-4 leading-8 text-slate-300">
-                Use WhatsApp for fast communication, quote follow-up, and business coordination.
+                Use WhatsApp for fast communication, quotation follow-up, and business
+                coordination with our team.
               </p>
               <a
                 href="https://wa.me/919000000000"
                 target="_blank"
                 rel="noreferrer"
-                className="mt-8 inline-flex items-center justify-center rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:bg-slate-100"
+                className="mt-8 inline-flex items-center justify-center rounded-full bg-white px-7 py-3.5 text-sm font-semibold text-slate-900 transition hover:-translate-y-0.5 hover:shadow-[0_10px_30px_rgba(180,83,9,0.14)]"
               >
                 Chat on WhatsApp
               </a>
@@ -66,9 +67,20 @@ export function FooterSection() {
                 JYOTHI INDUSTRIES
               </div>
               <p className="mt-4 max-w-lg leading-7 text-slate-500">
-                Professional Industrial Manufacturing Solutions designed to support trust,
-                quality, and long-term business growth.
+                Professional Industrial Manufacturing Solutions designed to support consistent
+                quality, timely delivery, and long-term business growth.
               </p>
+              <div className="mt-5 flex flex-wrap gap-3 text-xs uppercase tracking-[0.28em] text-slate-500">
+                <span className="rounded-full border border-[rgba(180,83,9,0.16)] bg-white px-3 py-2">
+                  Bulk supply
+                </span>
+                <span className="rounded-full border border-[rgba(180,83,9,0.16)] bg-white px-3 py-2">
+                  Custom manufacturing
+                </span>
+                <span className="rounded-full border border-[rgba(180,83,9,0.16)] bg-white px-3 py-2">
+                  Quality standards
+                </span>
+              </div>
             </div>
 
             <div>
@@ -101,7 +113,7 @@ export function FooterSection() {
           </div>
 
           <div className="mt-10 border-t border-slate-200 pt-6 text-sm text-slate-500">
-            Professional Industrial Manufacturing Solutions
+            Precision-driven industrial manufacturing for businesses that value reliability and performance.
           </div>
         </div>
       </footer>

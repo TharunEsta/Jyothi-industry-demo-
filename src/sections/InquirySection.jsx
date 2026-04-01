@@ -8,7 +8,7 @@ export function InquirySection() {
         <SectionHeader
           eyebrow="Inquiry"
           title="Request a Business Quote"
-          description="A clean inquiry form that makes it easy for industrial buyers to share requirements and start a conversation."
+          description="Share your requirement and our team will get back to you with suitable solutions based on your quantity, scope, and delivery needs."
         />
 
         <div className="grid gap-10 lg:grid-cols-[0.88fr_1.12fr]">
@@ -17,17 +17,23 @@ export function InquirySection() {
               Business-first response
             </div>
             <h3 className="mt-4 text-3xl font-semibold">
-              Tell us what you need and we will follow up professionally.
+              Tell us what you need and we will follow up with a practical, business-ready quotation.
             </h3>
             <p className="mt-4 leading-8 text-slate-300">
-              Share your product requirement, volume, or target timeline. This sample layout
-              is designed to capture serious B2B inquiries without friction.
+              Share your product requirement, volume, target timeline, or any custom
+              manufacturing detail. This page is designed to capture serious B2B inquiries
+              without unnecessary friction.
             </p>
 
             <div className="mt-8 space-y-4">
               <ContactLine label="Expected turnaround" value="Fast response" />
               <ContactLine label="Ideal for" value="Quotes and supply requests" />
               <ContactLine label="Communication style" value="Clear and professional" />
+            </div>
+
+            <div className="mt-8 rounded-3xl border border-white/10 bg-white/[0.05] p-5 text-sm leading-7 text-slate-300">
+              Suitable for bulk supply, custom manufacturing, industrial-grade materials,
+              and repeat procurement discussions.
             </div>
           </div>
 
@@ -47,11 +53,11 @@ export function InquirySection() {
             </div>
             <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
               <p className="text-sm text-slate-500">
-                We respect business privacy and treat inquiries professionally.
+                We respect business privacy and treat every inquiry as a professional business opportunity.
               </p>
               <button
                 type="button"
-                className="inline-flex items-center justify-center rounded-full bg-amber-600 px-7 py-3.5 text-sm font-semibold text-white shadow-premium transition hover:-translate-y-0.5 hover:bg-amber-700"
+                className="inline-flex items-center justify-center rounded-full brand-accent-bg px-7 py-3.5 text-sm font-semibold text-white shadow-premium transition hover:-translate-y-0.5 hover:brightness-105"
               >
                 Submit Inquiry
               </button>

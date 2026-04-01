@@ -3,7 +3,7 @@ import React from "react";
 export function SectionHeader({ eyebrow, title, description }) {
   return (
     <div className="mb-10 max-w-3xl">
-      <div className="text-sm font-semibold uppercase tracking-[0.38em] text-amber-700">
+      <div className="text-sm font-semibold uppercase tracking-[0.38em] brand-accent-text">
         {eyebrow}
       </div>
       <h2 className="mt-3 text-3xl font-semibold tracking-tight text-slate-950 sm:text-4xl">
@@ -16,7 +16,7 @@ export function SectionHeader({ eyebrow, title, description }) {
 
 export function FormField({ label, placeholder, textarea = false, type = "text" }) {
   const base =
-    "mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-amber-500 focus:ring-4 focus:ring-amber-500/10";
+    "mt-2 w-full rounded-2xl border border-slate-200 bg-white px-4 py-3 text-slate-900 outline-none transition placeholder:text-slate-400 focus:border-[rgba(180,83,9,0.45)] focus:ring-4 focus:ring-[rgba(180,83,9,0.12)]";
 
   return (
     <label className="block">
