@@ -57,7 +57,7 @@ export function IntroSection() {
           </div>
 
           <div className="grid gap-5">
-                <div className="rounded-[2rem] border border-[rgba(180,83,9,0.14)] bg-white p-4 shadow-premium">
+            <div className="rounded-[2rem] border border-[rgba(180,83,9,0.14)] bg-white p-4 shadow-premium">
               <div className="grid gap-4 sm:grid-cols-[1.15fr_0.85fr]">
                 <div className="relative overflow-hidden rounded-[1.5rem] bg-[linear-gradient(180deg,#334155_0%,#0f172a_100%)] p-5 text-white">
                   <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(217,119,6,0.12),transparent_30%),linear-gradient(180deg,transparent_0%,rgba(15,23,42,0.68)_100%)]" />
@@ -99,10 +99,10 @@ export function IntroSection() {
 
                 <div className="grid gap-4">
                   <div className="overflow-hidden rounded-[1.5rem] border border-slate-200 bg-stone-50 p-4 shadow-sm">
-                      <div className="relative h-full min-h-40 overflow-hidden rounded-[1.1rem] bg-[linear-gradient(180deg,#d6d3d1_0%,#94a3b8_45%,#334155_100%)]">
+                    <div className="relative h-full min-h-40 overflow-hidden rounded-[1.1rem] bg-[linear-gradient(180deg,#d6d3d1_0%,#94a3b8_45%,#334155_100%)]">
                       <div className="absolute inset-x-0 bottom-0 h-16 bg-[linear-gradient(180deg,rgba(180,83,9,0.18),rgba(15,23,42,0.03))]" />
                       <div className="absolute left-4 top-4 h-10 w-20 rounded-lg bg-white/18 backdrop-blur-sm" />
-                  <div className="absolute left-6 bottom-5 h-10 w-10 rounded-full border-4 border-[rgba(180,83,9,0.50)]" />
+                      <div className="absolute left-6 bottom-5 h-10 w-10 rounded-full border-4 border-[rgba(180,83,9,0.50)]" />
                       <div className="absolute right-5 top-8 h-24 w-14 rounded-t-xl bg-slate-800/45" />
                       <div className="absolute inset-x-4 bottom-6 h-2 rounded-full bg-slate-950/25" />
                     </div>
@@ -134,6 +134,7 @@ export function IntroSection() {
             </div>
           </div>
         </div>
+      </div>
     </section>
   );
 }
